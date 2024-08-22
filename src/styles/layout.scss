@@ -1,0 +1,9 @@
+$proportion: 1;
+// 组件圆角
+$component-radius: 23px * $proportion;
+
+// 组件内部margin
+$component-margin: 32px * $proportion;
+
+// 组件内部padding
+$component-padding: 32px * $proportion;

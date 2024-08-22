@@ -1,0 +1,26 @@
+$header-height: 64px;
+
+.layout {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: $header-height;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #3165CF;
+  background-color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content {
+  width: 100%;
+  height: calc(100% - #{$header-height});
+}
